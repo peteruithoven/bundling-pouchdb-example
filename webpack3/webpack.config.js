@@ -24,7 +24,8 @@ module.exports = {
     new BabiliPlugin(),
     // new BundleAnalyzerPlugin()
   ],
-  devtool: "eval-source-map",
+  // devtool: "eval-source-map", // not production ready!
+  devtool: "source-map",
   devServer: {
     contentBase: distPath
   }
