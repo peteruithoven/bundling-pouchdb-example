@@ -1,5 +1,3 @@
-jspm/jspm_packages
-jspm/node_modules
-jspm/dist
-webpack3/node_modules
-webpack3/dist
+*/jspm_packages
+*/node_modules
+*/dist
